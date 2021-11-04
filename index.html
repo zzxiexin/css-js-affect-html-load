@@ -1,0 +1,24 @@
+//index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache,no-store, must-revalidate" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>浏览器渲染demo</title>
+</head>
+
+<body>
+    <!-- js阻塞全部、css也会 -->
+    <p>没被阻塞的我</p>
+    <script src="/1.js"></script>
+    <link rel="stylesheet" href="./3.css">
+    <div>dom被阻塞了</div>
+    <div>
+        图片被阻塞了
+        <img src="https://www.runoob.com/wp-content/uploads/2013/10/bs.png">
+    </div>
+</body>
+
+</html>
