@@ -28,7 +28,7 @@ app.get('*', function(req, res) {
                 setTimeout(function() {
                     res.write(data);
                     res.end();
-                }, 15000);
+                }, 10000);
             })
             break;
     }

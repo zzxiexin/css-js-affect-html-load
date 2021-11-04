@@ -1,1 +1,2 @@
-console.log('1.js')
+const div = document.getElementById('div');
+console.log(div);
