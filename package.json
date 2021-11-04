@@ -1,0 +1,11 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zzxiexin/css-js-load.git",
+  "author": "yuanxinxin <yuanxinxin@111.com.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
