@@ -1,0 +1,1 @@
+直接在目录下yarn && node server.js 访问http://localhost:9999 即可。
